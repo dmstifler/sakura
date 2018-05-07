@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册信息</title>
+</head>
+<body>
+	<h1 align="center">注册信息</h1>
+	<hr/>
+	<form>
+		<table align="center" width="360" bgcolor="#198e6">
+			<tr valign="middle">
+				<td width="100" align="right">姓名：</td>
+				<td width="260"><input type="text" name="name" size="25" maxlength="11" placeholder="请输入姓名"/></td>
+			</tr>
+			<tr valign="middle">
+				<td align="right">邮箱：</td>
+				<td><input type="text" name="email" size="25" value="@163.com"/></ins></td>
+			</tr>
+			<tr valign="middle">
+				<td align="right">密码：</td>
+				<td><input type="password" name="password" size="25" maxlength="16" placeholder="请输入密码"/></td>
+			</tr>
+			<tr valign="middle">
+				<td align="right">确认密码：</td>
+				<td><input type="password" name="mspassword" size="25" maxlength="16" placeholder="再次输入密码"/></td>
+			</tr>
+			<tr valign="middle">
+				<td align="right">上传照片：</td>
+				<td><input type="file" name="photofile" /></td>
+			</tr>
+			<tr valign="middle">
+				<td align="right">性别：</td>
+				<td>男<input type="radio" name="sex" value="man" />
+				女<input type="radio" name="sex" value="women" />
+				保密<input type="radio" name="sex" value="secret" checked />
+				</td>
+			</tr>
+			<tr valign="middle">
+				<td align="right">爱好：</td>
+				<td>篮球<input type="checkbox" name="love" />
+				游泳<input type="checkbox" name="love" />
+				羽毛球<input type="checkbox" name="love" /></td>
+			</tr>
+			<tr align="center" valign="middle">
+				<td colspan="2">
+					<input type="button" name="button" value="来点我" />
+					<input type="submit" name="submit" value="确认提交" />
+					<input type="reset" name="reset" value="点击重置" />
+					<input type="image" name="image_button" src="make.jpg" width="20" height="20">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
