@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>imooc</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-color: #add8e6;
+
+		}
+		.top{
+			background-color: #000;
+			width: 100%;
+			height: 80px;
+			overflow: hidden;
+		}
+		img{
+			width: 240px;
+			height: 80px;
+			float: left;
+			cursor: pointer;
+		}
+		.top-ul{
+			float: right;
+			line-height: 80px;
+			color: #fff;
+			font:25px;
+			list-style: none;
+		}
+		.top-li{
+			float: left;
+			padding-right: 50px;
+		}
+		.main{
+			width: 70%;
+			margin:0 auto;
+			overflow: hidden;
+			height: 1500px;
+		}
+		.left{
+			padding-top: 50px;
+			width: 25%;
+			height: 1500px;
+			float: left;
+		}
+		.middle{
+			padding-top: 50px;
+			width: 25%;
+			height: 1500px;
+			margin-left:100px;
+			float: left;
+		}
+		hr{
+			width: 5px;
+	       height:100%;
+	       background:#ee9572;
+	       border:none;
+	       float:left;
+		}
+		.right{
+			padding-top: 50px;
+			width: 30%;
+			height: 1500px;
+			float: right;
+		}
+		.footer{
+			background-color: #000;
+			width: 100%;
+			height: 80px;
+			clear: both;
+			overflow: hidden;
+			
+		}
+		.foot-ul{
+			height: 80px;
+			width: 100%;
+	        color:#fff;
+	        list-style:none;
+	        margin: 0 auto;
+
+			
+    	}
+		.foot-li{
+			line-height: 80px;
+			padding-right: 5px;
+			font: 20px;
+			float: left;
+			vertical-align: middle;
+			
+		}
+		h2{
+			margin: 30px 0px;
+		}
+		span{
+			background:#f2a2a5;
+			padding: 5px;
+		}
+		.content-ul li{
+			list-style: none;
+			padding-top: 20px;
+		}
+		.username,.password,.button{
+			width: 100%;
+			height: 40px;
+		}
+		.button{
+			background-color: #f00;
+		}
+	</style>
+</head>
+<body>
+	<div class="top">
+		<img src="http://climg.mukewang.com/58c0d2d900016ce303000100.png" alt="imooc">
+		<ul class="top-ul">
+			<li class="top-li">课程</li>
+			<li class="top-li">职业路径</li>
+			<li class="top-li">实战</li>
+			<li class="top-li">猿问</li>
+			<li class="top-li">手记</li>
+		</ul>
+	</div>
+	<div class="main">
+		<div class="left">
+			<h2>课程推荐</h2>
+			<ul class="content-ul">
+				<li><span>职业路径</span>&nbsp;&nbsp;慕课网学习课程1</li>
+				<li><span>职业路径</span>&nbsp;&nbsp;慕课网学习课程2</li>
+				<li><span>职业路径</span>&nbsp;&nbsp;慕课网学习课程3</li>
+				<li><span>职业路径</span>&nbsp;&nbsp;慕课网学习课程4</li>
+				<li><span>职业路径</span>&nbsp;&nbsp;慕课网学习课程5</li>
+			</ul>
+		</div>
+		<div class="middle">
+			<h2>相关课程</h2>
+			<ul class="content-ul">
+				<li>相关学习课程1</li>
+				<li>相关学习课程2</li>
+				<li>相关学习课程3</li>
+			</ul>
+		</div>
+		<hr>
+		<div class="right">
+			<h2>登录</h2>
+			<form>
+				<input class="username" type="text" name="username" placeholder="请输入登录邮箱/手机号/用户名"><br><br>
+				<input class="password" type="password" name="password" placeholder="6-16位密码，区分大小写，不能用空格" minlength="6" maxlength="16"><br><br>
+				<input class="button" type="button" name="signin" value="登录" >
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+		<ul class="foot-ul">
+			<li class="foot-li">网站首页</li>
+			<li class="foot-li">企业合作</li>
+			<li class="foot-li">人才招聘</li>
+			<li class="foot-li">联系我们</li>
+			<li class="foot-li">常见问题</li>
+			<li class="foot-li">友情链接</li>
+		</ul>
+	</div>
+</body>
+</html>
