@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> </title>
+</head>
+<body>
+<script>
+    //补充代码
+    var email=prompt("请输入登录邮箱");
+    var posName=email.indexOf('@');
+    var posLastName=email.lastIndexOf('.');
+    document.write(email.substring(0,posName));
+	document.write(email.substring(posLastName));
+</script>
+</body>
+</html>
