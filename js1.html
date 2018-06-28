@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>首字母变大写</title>
+</head>
+<body>
+<script>
+    //补充代码
+    var str="all time is no time when it is past";
+    function getChange(str){
+        var arr=str.split(" ");
+        var newstr="";
+        for(var i=0;i<arr.length;i++){
+            var word=arr[i].substr(0,1).toUpperCase()+arr[i].substr(1);
+            newstr+=word;
+        }
+        return newstr;
+    }
+    document.write(getChange(str));
+</script>
+</body>
+</html>
