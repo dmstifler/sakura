@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>Math.random()</title>
+</head>
+<body>
+<script>
+var random=parseInt(Math.floor(Math.random()*9+1));
+var input;
+while(input!=random){
+var input=prompt("请输入你猜的数字");
+if(input<random){
+alert("输入的数字小了");
+}else if(input>random){
+alert("输入的数字大了");
+}
+}
+alert("恭喜你猜对了");
+</script>
+</body>
+</html>
