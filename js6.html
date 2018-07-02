@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>onblur和onfocus</title>
+    <style type="text/css">
+        .red{
+    		border:1px solid red;
+    	}
+    </style>
+</head>
+<body>
+	姓名：<input type="text"> <span></span>
+	<script type="text/javascript">
+		var input=document.getElementsByTagName("input")[0];
+        var tip=document.getElementsByTagName("span")[0];
+        input.onfocus=function(){
+            if(this.value==""){
+                tip.innerHTML="请输入姓名：";
+            }
+        }
+        input.onblur=function(){
+            if(this.value==""){
+                tip.innerHTML="用户名不能为空";
+                input.calssName="red";
+            }else{
+                tip.innerHTML="";
+                input.calssName="";
+            }
+        }
+    </script>
+</body>
+</html>

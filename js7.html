@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+	    <meta charset="UTF-8">
+	    <title>输入框</title>
+	</head>
+	<body>
+		<input type="button" value="点击">
+		<script type="text/javascript">
+			//补充代码
+			var val=document.getElementsByTagName("input")[0];
+			val.onclick=function(){
+			    var shu=window.prompt("当点击确定时，按钮的文字会变成输入的/n文本","输入吧");
+			    if(shu){
+			        this.value=shu;
+			        
+			    }
+			}
+			
+		</script>
+	</body>
+</html>
