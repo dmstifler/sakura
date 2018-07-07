@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+	    <meta charset="UTF-8">
+	    <title>输入框</title>
+	</head>
+	<body>
+		<input type="button" value="删除" id="btn">
+		<script type="text/javascript">
+			//补充代码
+			var btn=document.getElementById("btn");
+			btn.onclick=function(){
+				var bool=confirm("确定要删除么？");
+				if(bool==true){
+					btn.style.color="#f00";
+				}else {
+					btn.style.color="#0f0";
+				}
+			}
+		</script>
+	</body>
+
+</html>
